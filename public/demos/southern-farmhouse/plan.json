@@ -1,0 +1,4003 @@
+{
+  "version": 38,
+  "pages": [
+    {
+      "index": 0,
+      "width": 2359,
+      "height": 1934,
+      "metresPerPixel": 0.010993011925162922,
+      "scale": {
+        "metresPerPixel": 0.010993011925162922,
+        "source": "dimension",
+        "label": "42'-0\" [12600], 28'-0\" [8400], 16'-0\" [4800]",
+        "weight": 6
+      },
+      "label": "Southern Farmhouse — 1st floor plan (sheet A1.1)"
+    },
+    {
+      "index": 1,
+      "width": 2360,
+      "height": 1934,
+      "metresPerPixel": 0.01099958005755665,
+      "scale": {
+        "metresPerPixel": 0.01099958005755665,
+        "source": "dimension",
+        "label": "42'-0\" [12600], 28'-0\" [8400], 40'-0\" [12000]",
+        "weight": 6
+      },
+      "label": "Southern Farmhouse — 2nd floor plan (sheet A1.2)"
+    }
+  ],
+  "floors": [
+    {
+      "id": "f1",
+      "page": 0,
+      "name": "1ST FLOOR PLAN",
+      "storey": 0,
+      "level": 0,
+      "sourceAudit": {
+        "version": 1,
+        "checks": {
+          "rooms": {
+            "status": "checked",
+            "evidence": "All twelve supplied room/space labels occur at their source locations. PANTRY labels kitchen joinery, not a separate walk-in room; CRAWLSPACE ACCESS labels access beneath the stair."
+          },
+          "doorways": {
+            "status": "checked",
+            "evidence": "The marked house doors connect the correct spaces, including the WC pocket door into CENTRAL HALL. Two source screen doors are omitted: the west entrance to SUNSET PORCH and the south entrance to BREAKFAST PORCH. Kitchen, dining and hall open-plan circulation must remain open."
+          },
+          "stairs": {
+            "status": "uncertain",
+            "evidence": "The main stair approaches from the bottom and ascends upward. Its lower tread run ends at a break adjoining CRAWLSPACE ACCESS; the orange rectangle also covers the under-stair enclosure. The source states 17 R @ 7.7 inches [195], but does not individually number the visible treads or establish an upper landing footprint here. Exterior BRICK STEPS are also drawn."
+          },
+          "barriers": {
+            "status": "uncertain",
+            "evidence": "At least one barrier could not be classified against the source."
+          },
+          "ceilings": {
+            "status": "not_shown",
+            "evidence": "No ceiling-face, raked-ceiling or ceiling-height annotation is shown. Joist annotations and deck drainage slopes are not ceiling regions."
+          },
+          "roof": {
+            "status": "not_shown",
+            "evidence": "No roof plane or roof pitch is shown in these review images; the printed 1–2% slopes refer to decking."
+          },
+          "dimensions": {
+            "status": "checked",
+            "evidence": "All four scale readings match their bracketed metric dimensions and extension lines: 12600, 8400, 4800 and 3000 mm. Opening sizes agree with the local door/window schedules; their unprinted sill defaults are not source measurements."
+          },
+          "outdoor": {
+            "status": "checked",
+            "evidence": "STOOP is correctly outside the enclosed house, between the rear door and brick steps. It requires no enclosing walls. Both screened porches and the wrapping FRONT PORCH retain their source entry gaps and outdoor edges."
+          }
+        },
+        "rooms": [
+          {
+            "name": "FAMILY ROOM",
+            "x": 864.1709999999999,
+            "y": 500.0755
+          },
+          {
+            "name": "LIVING ROOM",
+            "x": 865.2875,
+            "y": 932.161
+          },
+          {
+            "name": "CENTRAL HALL",
+            "x": 1220.3345,
+            "y": 509.0075
+          },
+          {
+            "name": "WC",
+            "x": 1455.916,
+            "y": 427.503
+          },
+          {
+            "name": "UTILITY ROOM",
+            "x": 1470.4305,
+            "y": 685.4145
+          },
+          {
+            "name": "KITCHEN",
+            "x": 1656.886,
+            "y": 669.7835
+          },
+          {
+            "name": "DINING ROOM",
+            "x": 1605.527,
+            "y": 932.161
+          },
+          {
+            "name": "ALCOVE",
+            "x": 1098.636,
+            "y": 768.0355
+          },
+          {
+            "name": "SUNSET PORCH (SCREENED)",
+            "x": 495.726,
+            "y": 541.386
+          },
+          {
+            "name": "BREAKFAST PORCH (SCREENED)",
+            "x": 1949.4089999999999,
+            "y": 563.716
+          },
+          {
+            "name": "FRONT PORCH",
+            "x": 1213.6354999999999,
+            "y": 1314.004
+          },
+          {
+            "name": "STOOP",
+            "x": 1179.024,
+            "y": 295.756
+          }
+        ],
+        "doors": [
+          {
+            "x1": 1176.791,
+            "y1": 390.6585,
+            "x2": 1261.645,
+            "y2": 390.6585,
+            "from_x": 1219.218,
+            "from_y": 353.81399999999996,
+            "to_x": 1219.218,
+            "to_y": 455.4155,
+            "label": "B: STOOP to CENTRAL HALL"
+          },
+          {
+            "x1": 1784.167,
+            "y1": 481.09499999999997,
+            "x2": 1784.167,
+            "y2": 563.716,
+            "from_x": 1740.6235,
+            "from_y": 523.5219999999999,
+            "to_x": 1834.4095,
+            "to_y": 523.5219999999999,
+            "label": "A: KITCHEN to BREAKFAST PORCH"
+          },
+          {
+            "x1": 1176.791,
+            "y1": 1140.9465,
+            "x2": 1261.645,
+            "y2": 1140.9465,
+            "from_x": 1219.218,
+            "from_y": 1195.655,
+            "to_x": 1219.218,
+            "to_y": 1068.374,
+            "label": "A: FRONT PORCH to unlabelled entry passage"
+          },
+          {
+            "x1": 652.036,
+            "y1": 548.085,
+            "x2": 652.036,
+            "y2": 630.706,
+            "from_x": 606.2595,
+            "from_y": 589.3955,
+            "to_x": 715.6765,
+            "to_y": 589.3955,
+            "label": "B: SUNSET PORCH to FAMILY ROOM"
+          },
+          {
+            "x1": 1066.2575,
+            "y1": 492.26,
+            "x2": 1066.2575,
+            "y2": 628.473,
+            "from_x": 1020.481,
+            "from_y": 560.3665,
+            "to_x": 1144.4125,
+            "to_y": 560.3665,
+            "label": "H: FAMILY ROOM to CENTRAL HALL"
+          },
+          {
+            "x1": 1070.7235,
+            "y1": 899.7825,
+            "x2": 1070.7235,
+            "y2": 1039.345,
+            "from_x": 1022.7139999999999,
+            "from_y": 970.122,
+            "to_x": 1147.762,
+            "to_y": 970.122,
+            "label": "H: LIVING ROOM to unlabelled entry/dining passage"
+          },
+          {
+            "x1": 1296.2565,
+            "y1": 409.639,
+            "x2": 1296.2565,
+            "y2": 465.464,
+            "from_x": 1256.0625,
+            "from_y": 437.5515,
+            "to_x": 1328.635,
+            "to_y": 437.5515,
+            "label": "F: CENTRAL HALL to unlabelled closet"
+          },
+          {
+            "x1": 1424.654,
+            "y1": 475.5125,
+            "x2": 1480.479,
+            "y2": 475.5125,
+            "from_x": 1452.5665,
+            "from_y": 517.9395,
+            "to_x": 1452.5665,
+            "to_y": 439.7845,
+            "label": "G: CENTRAL HALL to WC"
+          },
+          {
+            "x1": 1271.6934999999999,
+            "y1": 570.415,
+            "x2": 1345.3825,
+            "y2": 570.415,
+            "from_x": 1308.538,
+            "from_y": 527.9879999999999,
+            "to_x": 1308.538,
+            "to_y": 630.706,
+            "label": "E: CENTRAL HALL to under-stair enclosure / CRAWLSPACE ACCESS"
+          },
+          {
+            "x1": 1434.7024999999999,
+            "y1": 570.415,
+            "x2": 1507.2749999999999,
+            "y2": 570.415,
+            "from_x": 1470.4305,
+            "from_y": 526.8715,
+            "to_x": 1470.4305,
+            "to_y": 644.1039999999999,
+            "label": "D: CENTRAL HALL to UTILITY ROOM"
+          },
+          {
+            "x1": 372.911,
+            "y1": 554.784,
+            "x2": 372.911,
+            "y2": 644.1039999999999,
+            "from_x": 346.115,
+            "from_y": 599.444,
+            "to_x": 428.736,
+            "to_y": 599.444,
+            "label": "I: west brick-step approach to SUNSET PORCH"
+          },
+          {
+            "x1": 1883.5355,
+            "y1": 765.8025,
+            "x2": 1973.972,
+            "y2": 765.8025,
+            "from_x": 1928.1955,
+            "from_y": 812.6954999999999,
+            "to_x": 1928.1955,
+            "to_y": 711.0939999999999,
+            "label": "I: wrapping FRONT PORCH to BREAKFAST PORCH"
+          }
+        ],
+        "barriers": [
+          {
+            "x": 509.12399999999997,
+            "y": 437.5515,
+            "kind": "unknown",
+            "evidence": "Barrier 0: paired screen-frame lines between 4x4 posts on SUNSET PORCH; no local low-rail label."
+          },
+          {
+            "x": 372.911,
+            "y": 497.8425,
+            "kind": "unknown",
+            "evidence": "Barrier 1: screened perimeter from corner post to screen-door jamb; screen framing does not alone establish a balustrade."
+          },
+          {
+            "x": 372.911,
+            "y": 766.919,
+            "kind": "unknown",
+            "evidence": "Barrier 2: paired screened-perimeter lines and posts south of the screen entrance; low-rail construction is not specified locally."
+          },
+          {
+            "x": 509.12399999999997,
+            "y": 875.2194999999999,
+            "kind": "unknown",
+            "evidence": "Barrier 3: SUNSET PORCH screen/post perimeter; no independent railing-height annotation at this edge."
+          },
+          {
+            "x": 1928.1955,
+            "y": 437.5515,
+            "kind": "unknown",
+            "evidence": "Barrier 4: BREAKFAST PORCH screened perimeter with posts; screen/frame lines are shown, but a low rail is not separately identified."
+          },
+          {
+            "x": 2065.525,
+            "y": 883.035,
+            "kind": "balustrade",
+            "evidence": "Barrier 5: east porch edge is explicitly called out as 30-inch RAILING; the upper portion also bounds the screened porch."
+          },
+          {
+            "x": 1837.759,
+            "y": 765.8025,
+            "kind": "unknown",
+            "evidence": "Barrier 6: screen-frame segment between house and screen-door jamb, with a post; no distinct low-wall symbol."
+          },
+          {
+            "x": 2019.7485,
+            "y": 765.8025,
+            "kind": "unknown",
+            "evidence": "Barrier 7: screen-frame segment east of the screen door, between posts; low-rail detail is not independently legible."
+          },
+          {
+            "x": 2065.525,
+            "y": 1334.1009999999999,
+            "kind": "balustrade",
+            "evidence": "Barrier 8: paired porch-edge rail lines below the east brick-step entrance; continuation of the labelled porch railing."
+          },
+          {
+            "x": 1697.08,
+            "y": 1420.0715,
+            "kind": "balustrade",
+            "evidence": "Barrier 9: source explicitly labels this post-supported edge 30-inch PORCH RAILING."
+          },
+          {
+            "x": 892.0835,
+            "y": 1420.0715,
+            "kind": "balustrade",
+            "evidence": "Barrier 10: paired front-porch rail lines between posts, stopping at the front-step opening; same porch railing construction."
+          },
+          {
+            "x": 674.366,
+            "y": 1284.975,
+            "kind": "balustrade",
+            "evidence": "Barrier 11: paired side-return rail lines connect the front corner post to the house-side porch post."
+          },
+          {
+            "x": 1260.5285,
+            "y": 793.715,
+            "kind": "balustrade",
+            "evidence": "Barrier 12: the stair closeup shows a paired rail and a round newel at its bottom end, not merely aligned tread ends. Retain this rail."
+          }
+        ]
+      },
+      "elevation": 0,
+      "ceilingHeight": 2.55,
+      "ceilingSource": "drawing",
+      "roofEaveHeight": 6.45,
+      "offset": [
+        0,
+        0
+      ],
+      "placement": "base",
+      "walls": [
+        {
+          "id": "f1-w1",
+          "a": [
+            -5.79331728456086,
+            -6.33890163795326
+          ],
+          "b": [
+            6.650772214723568,
+            -6.33890163795326
+          ],
+          "thickness": 0.18269550165391013,
+          "exterior": true
+        },
+        {
+          "id": "f1-w5",
+          "a": [
+            6.650772214723568,
+            -6.33890163795326
+          ],
+          "b": [
+            6.650772214723568,
+            1.9084075107730936
+          ],
+          "thickness": 0.18933333015153006,
+          "exterior": true
+        },
+        {
+          "id": "f1-w6",
+          "a": [
+            6.650772214723568,
+            -1.1872452879175956
+          ],
+          "b": [
+            7.392800519672066,
+            -0.48055166415712275
+          ],
+          "thickness": 0.0989371073264663,
+          "exterior": true
+        },
+        {
+          "id": "f1-w7",
+          "a": [
+            7.392800519672066,
+            -0.48055166415712275
+          ],
+          "b": [
+            7.392800519672066,
+            0.5340803711416994
+          ],
+          "thickness": 0.08794409540130338,
+          "exterior": true
+        },
+        {
+          "id": "f1-w8",
+          "a": [
+            7.392800519672066,
+            0.5340803711416994
+          ],
+          "b": [
+            6.650772214723568,
+            1.252552221964848
+          ],
+          "thickness": 0.0989371073264663,
+          "exterior": true
+        },
+        {
+          "id": "f1-w10",
+          "a": [
+            6.650772214723568,
+            1.9084075107730936
+          ],
+          "b": [
+            -1.1960212673588377,
+            1.9084075107730936
+          ],
+          "thickness": 0.1846413192131155,
+          "exterior": true
+        },
+        {
+          "id": "f1-w12",
+          "a": [
+            -1.1960212673588377,
+            1.8743085332402782
+          ],
+          "b": [
+            -5.79331728456086,
+            1.8743085332402782
+          ],
+          "thickness": 0.12092313117679215,
+          "exterior": true
+        },
+        {
+          "id": "f1-w13",
+          "a": [
+            -5.79331728456086,
+            2.028210700192559
+          ],
+          "b": [
+            -5.79331728456086,
+            -6.33890163795326
+          ],
+          "thickness": 0.18688120272776967,
+          "exterior": true
+        },
+        {
+          "id": "f1-w14",
+          "a": [
+            -1.2449586005247009,
+            -6.33890163795326
+          ],
+          "b": [
+            -1.2449586005247009,
+            -3.6661694770418345
+          ],
+          "thickness": 0.19237770869035115,
+          "exterior": false
+        },
+        {
+          "id": "f1-w15",
+          "a": [
+            -1.1960212673588377,
+            -3.6661694770418345
+          ],
+          "b": [
+            -1.1960212673588377,
+            1.8743085332402782
+          ],
+          "thickness": 0.3122383988724037,
+          "exterior": false
+        },
+        {
+          "id": "f1-w18",
+          "a": [
+            -1.2449586005247009,
+            -5.276645724078203
+          ],
+          "b": [
+            -0.7640143287988231,
+            -5.276645724078203
+          ],
+          "thickness": 0.15390216695228093,
+          "exterior": false
+        },
+        {
+          "id": "f1-w19",
+          "a": [
+            -1.1960212673588377,
+            -3.6661694770418345
+          ],
+          "b": [
+            -0.7640143287988231,
+            -3.6661694770418345
+          ],
+          "thickness": 0.17588819080260676,
+          "exterior": false
+        },
+        {
+          "id": "f1-w20",
+          "a": [
+            -1.1960212673588377,
+            -3.0478125562514204
+          ],
+          "b": [
+            -0.7640143287988231,
+            -3.0478125562514204
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w21",
+          "a": [
+            -1.1960212673588377,
+            -1.3878677555518188
+          ],
+          "b": [
+            -0.7640143287988231,
+            -1.3878677555518188
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w22",
+          "a": [
+            -1.1960212673588377,
+            -0.7805038466865675
+          ],
+          "b": [
+            -0.7640143287988231,
+            -0.7805038466865675
+          ],
+          "thickness": 0.15390216695228093,
+          "exterior": false
+        },
+        {
+          "id": "f1-w23",
+          "a": [
+            -1.1960212673588377,
+            0.8354689063123821
+          ],
+          "b": [
+            -0.7640143287988231,
+            0.8354689063123821
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w25",
+          "a": [
+            1.2806858892814805,
+            -6.33890163795326
+          ],
+          "b": [
+            1.2806858892814805,
+            -5.383827590348541
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w26",
+          "a": [
+            1.2806858892814805,
+            -5.383827590348541
+          ],
+          "b": [
+            2.000728170379652,
+            -5.383827590348541
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w27",
+          "a": [
+            2.000728170379652,
+            -6.33890163795326
+          ],
+          "b": [
+            2.000728170379652,
+            -5.404439487708221
+          ],
+          "thickness": 0.23085325042842136,
+          "exterior": false
+        },
+        {
+          "id": "f1-w28",
+          "a": [
+            2.000728170379652,
+            -5.404439487708221
+          ],
+          "b": [
+            3.6831099466571597,
+            -5.404439487708221
+          ],
+          "thickness": 0.18138469676518823,
+          "exterior": false
+        },
+        {
+          "id": "f1-w29",
+          "a": [
+            3.6831099466571597,
+            -6.33890163795326
+          ],
+          "b": [
+            3.6831099466571597,
+            -5.404439487708221
+          ],
+          "thickness": 0.18688120272776967,
+          "exterior": false
+        },
+        {
+          "id": "f1-w30",
+          "a": [
+            0.9261612546949762,
+            -4.361910277053474
+          ],
+          "b": [
+            3.6831099466571597,
+            -4.361910277053474
+          ],
+          "thickness": 0.14251963885654134,
+          "exterior": false
+        },
+        {
+          "id": "f1-w31",
+          "a": [
+            0.9261612546949762,
+            -4.361910277053474
+          ],
+          "b": [
+            0.9261612546949762,
+            -3.034071291344967
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w32",
+          "a": [
+            2.000728170379652,
+            -4.361910277053474
+          ],
+          "b": [
+            2.000728170379652,
+            -0.7805038466865675
+          ],
+          "thickness": 0.21986023850325845,
+          "exterior": false
+        },
+        {
+          "id": "f1-w34",
+          "a": [
+            3.6831099466571597,
+            -4.361910277053474
+          ],
+          "b": [
+            3.6831099466571597,
+            -1.816628068278368
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w35",
+          "a": [
+            2.000728170379652,
+            -1.816628068278368
+          ],
+          "b": [
+            4.419190793915495,
+            -1.816628068278368
+          ],
+          "thickness": 0.17349161000375607,
+          "exterior": false
+        },
+        {
+          "id": "f1-w38",
+          "a": [
+            2.436340434166713,
+            -1.816628068278368
+          ],
+          "b": [
+            2.436340434166713,
+            -0.7805038466865675
+          ],
+          "thickness": 0.15390216695228093,
+          "exterior": false
+        },
+        {
+          "id": "f1-w39",
+          "a": [
+            2.000728170379652,
+            -0.7805038466865675
+          ],
+          "b": [
+            2.436340434166713,
+            -0.7805038466865675
+          ],
+          "thickness": 0.15390216695228093,
+          "exterior": false
+        },
+        {
+          "id": "f1-w41",
+          "a": [
+            1.9952316644170704,
+            0.8354689063123821
+          ],
+          "b": [
+            2.436340434166713,
+            0.8354689063123821
+          ],
+          "thickness": 0.16489517887744384,
+          "exterior": false
+        },
+        {
+          "id": "f1-w42",
+          "a": [
+            2.436340434166713,
+            0.8354689063123821
+          ],
+          "b": [
+            2.436340434166713,
+            1.9084075107730936
+          ],
+          "thickness": 0.15390216695228093,
+          "exterior": false
+        },
+        {
+          "id": "f1-wi3",
+          "a": [
+            -5.79331728456086,
+            -2.215091902920329
+          ],
+          "b": [
+            -1.1960212673588377,
+            -2.215091902920329
+          ],
+          "thickness": 0.13191614310195507,
+          "exterior": false
+        },
+        {
+          "id": "f1-wi5",
+          "a": [
+            -5.622925599720835,
+            -2.5778612964507053
+          ],
+          "b": [
+            -5.622925599720835,
+            -1.8633155213151154
+          ],
+          "thickness": 0.0989371073264663,
+          "exterior": true
+        },
+        {
+          "id": "f1-wi8",
+          "a": [
+            1.8907980511280227,
+            1.5829937172234607
+          ],
+          "b": [
+            2.436340434166713,
+            1.5829937172234607
+          ],
+          "thickness": 0.12092313117679215,
+          "exterior": false
+        },
+        {
+          "id": "f1-wi9",
+          "a": [
+            -5.79331728456086,
+            2.028210700192559
+          ],
+          "b": [
+            -5.463526926805972,
+            2.028210700192559
+          ],
+          "thickness": 0.13191614310195507,
+          "exterior": true
+        }
+      ],
+      "openings": [
+        {
+          "id": "f1-o1",
+          "kind": "window",
+          "wallId": "f1-w1",
+          "offset": 1.500546127784739,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f1-o2",
+          "kind": "window",
+          "wallId": "f1-w1",
+          "offset": 3.61120441741602,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f1-o3",
+          "kind": "door",
+          "wallId": "f1-w1",
+          "offset": 6.2275412556047955,
+          "width": 0.9,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "36x80 [900x2000] 6-PANEL DOOR & 36x16 [900x400] TRANSOM",
+            "width": 0.9,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o4",
+          "kind": "window",
+          "wallId": "f1-w1",
+          "offset": 8.865864117643897,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f1-o5",
+          "kind": "window",
+          "wallId": "f1-w1",
+          "offset": 10.954536383424852,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f1-o6",
+          "kind": "door",
+          "wallId": "f1-w5",
+          "offset": 1.4580043431809222,
+          "width": 0.9,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "36x80 [900x2000] 9-LITE DOOR & 36x16 [900x400] TRANSOM",
+            "width": 0.9,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o7",
+          "kind": "window",
+          "wallId": "f1-w6",
+          "offset": 0.517240164547752,
+          "width": 0.6,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "24x72 [600x1800] DH WINDOW 4/4 DIVIDED LITES",
+            "width": 0.6,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o8",
+          "kind": "window",
+          "wallId": "f1-w7",
+          "offset": 0.515163481635589,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o9",
+          "kind": "window",
+          "wallId": "f1-w8",
+          "offset": 0.531444367064123,
+          "width": 0.6,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "24x72 [600x1800] DH WINDOW 4/4 DIVIDED LITES",
+            "width": 0.6,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o10",
+          "kind": "window",
+          "wallId": "f1-w10",
+          "offset": 1.2586998654311545,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o11",
+          "kind": "window",
+          "wallId": "f1-w10",
+          "offset": 3.5122673100895536,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o12",
+          "kind": "window",
+          "wallId": "f1-w10",
+          "offset": 5.469023432768554,
+          "width": 0.35,
+          "height": 1.1,
+          "sill": 0.9,
+          "dimensions": {
+            "text": "14x44 [350x1100] SIDELIGHT & 14x16 [350x400] TRANSOM",
+            "width": 0.35,
+            "height": 1.1
+          }
+        },
+        {
+          "id": "f1-o13",
+          "kind": "door",
+          "wallId": "f1-w10",
+          "offset": 6.216548243679632,
+          "width": 0.9,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "36x80 [900x2000] 9-LITE DOOR & 36x16 [900x400] TRANSOM",
+            "width": 0.9,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o14",
+          "kind": "window",
+          "wallId": "f1-w10",
+          "offset": 6.953080042665548,
+          "width": 0.35,
+          "height": 1.1,
+          "sill": 0.9,
+          "dimensions": {
+            "text": "14x44 [350x1100] SIDELIGHT & 14x16 [350x400] TRANSOM",
+            "width": 0.35,
+            "height": 1.1
+          }
+        },
+        {
+          "id": "f1-o15",
+          "kind": "window",
+          "wallId": "f1-w12",
+          "offset": 1.0630426832621427,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o16",
+          "kind": "window",
+          "wallId": "f1-w12",
+          "offset": 3.316610127920542,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o17",
+          "kind": "window",
+          "wallId": "f1-w13",
+          "offset": 1.9952316644170704,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f1-o18",
+          "kind": "door",
+          "wallId": "f1-w13",
+          "offset": 6.183569207904144,
+          "width": 0.9,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "36x80 [900x2000] 6-PANEL DOOR & 36x16 [900x400] TRANSOM",
+            "width": 0.9,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o19",
+          "kind": "sliding_door",
+          "wallId": "f1-w14",
+          "offset": 1.8647457844119504,
+          "width": 1.5,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "60x80 [1500x2000] 5-PANEL POCKET DRS & 60x18 [1500x450] TR",
+            "width": 1.5,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o20",
+          "kind": "sliding_door",
+          "wallId": "f1-w15",
+          "offset": 3.7101415247424865,
+          "width": 1.5,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "60x80 [1500x2000] 5-PANEL POCKET DRS & 60x18 [1500x450] TR",
+            "width": 1.5,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o21",
+          "kind": "door",
+          "wallId": "f1-w25",
+          "offset": 0.5235983295420737,
+          "width": 0.6,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "24x80 [600x2000] 1-PANEL DOOR (OPTIONAL: LOUVERS)",
+            "width": 0.6,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o22",
+          "kind": "sliding_door",
+          "wallId": "f1-w28",
+          "offset": 0.9948675792272446,
+          "width": 0.6,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "24x80 [600x2000] 1-PANEL POCKET DOOR",
+            "width": 0.6,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o24",
+          "kind": "door",
+          "wallId": "f1-w30",
+          "offset": 0.46445475383813345,
+          "width": 0.7,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "28x80 [700x2000] 5-PANEL DOOR",
+            "width": 0.7,
+            "height": 2
+          }
+        },
+        {
+          "id": "f1-o23",
+          "kind": "door",
+          "wallId": "f1-w30",
+          "offset": 2.2745011025234616,
+          "width": 0.8,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "32x80 [800x2000] 6-PANEL DOOR",
+            "width": 0.8,
+            "height": 2
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "id": "f1-r1",
+          "name": "FAMILY ROOM",
+          "at": [
+            -3.4792882743140647,
+            -5.144729580976247
+          ]
+        },
+        {
+          "id": "f1-r2",
+          "name": "LIVING ROOM",
+          "at": [
+            -3.5122673100895536,
+            -0.3847554173807023
+          ]
+        },
+        {
+          "id": "f1-r3",
+          "name": "CENTRAL HALL",
+          "at": [
+            0.44521698296909834,
+            -5.0677784975001074
+          ]
+        },
+        {
+          "id": "f1-r4",
+          "name": "WC",
+          "at": [
+            3.050560809232711,
+            -5.936226439587978
+          ]
+        },
+        {
+          "id": "f1-r5",
+          "name": "UTILITY ROOM",
+          "at": [
+            3.1604909284843403,
+            -3.089036350970781
+          ]
+        },
+        {
+          "id": "f1-r6",
+          "name": "KITCHEN",
+          "at": [
+            5.227177170414969,
+            -3.2759175536985508
+          ]
+        },
+        {
+          "id": "f1-r7",
+          "name": "DINING ROOM",
+          "at": [
+            4.677526574156824,
+            -0.3847554173807023
+          ]
+        },
+        {
+          "id": "f1-r8",
+          "name": "ALCOVE",
+          "at": [
+            -0.8739444480504523,
+            -2.242574432733236
+          ]
+        },
+        {
+          "id": "f1-r9",
+          "name": "SUNSET PORCH (SCREENED)",
+          "at": [
+            -7.5467026866243465,
+            -4.694016092044568
+          ]
+        },
+        {
+          "id": "f1-r10",
+          "name": "BREAKFAST PORCH (SCREENED)",
+          "at": [
+            8.360185569086402,
+            -4.419190793915495
+          ]
+        },
+        {
+          "id": "f1-r11",
+          "name": "FRONT PORCH",
+          "at": [
+            0.4012449352684467,
+            3.8145751380315343
+          ]
+        },
+        {
+          "id": "f1-r12",
+          "name": "STOOP",
+          "at": [
+            -0.04946855366323315,
+            -7.387304013709484
+          ]
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "f1-x1",
+          "kind": "kitchen_bench",
+          "min": [
+            3.776099596293464,
+            -6.24403077349254
+          ],
+          "max": [
+            6.579317637210009,
+            -5.628422105683416
+          ],
+          "height": 0.9
+        },
+        {
+          "id": "f1-x2",
+          "kind": "kitchen_bench",
+          "min": [
+            5.930729933625397,
+            -5.628422105683416
+          ],
+          "max": [
+            6.579317637210009,
+            -5.330897294772337
+          ],
+          "height": 0.9
+        },
+        {
+          "id": "f1-x2-2",
+          "kind": "kitchen_bench",
+          "min": [
+            5.930729933625397,
+            -4.430897294772338
+          ],
+          "max": [
+            6.579317637210009,
+            -2.7812320170662193
+          ],
+          "height": 0.9
+        },
+        {
+          "id": "f1-x3",
+          "kind": "tall_cabinet",
+          "min": [
+            3.776099596293464,
+            -2.7812320170662193
+          ],
+          "max": [
+            4.380715252177424,
+            -1.8578190153525338
+          ],
+          "height": 2.1
+        },
+        {
+          "id": "f1-x4",
+          "kind": "tall_cabinet",
+          "min": [
+            5.930729933625397,
+            -2.7812320170662193
+          ],
+          "max": [
+            6.579317637210009,
+            -1.8578190153525338
+          ],
+          "height": 2.1
+        }
+      ],
+      "stairs": [
+        {
+          "id": "f1-s1",
+          "parts": [
+            {
+              "kind": "flight",
+              "min": [
+                0.9399025196014299,
+                -5.124225734289681
+              ],
+              "max": [
+                1.8807980511280225,
+                -1.0993011925162923
+              ],
+              "up": [
+                0,
+                -1
+              ],
+              "origin": "drawing",
+              "support": "storage",
+              "supportEvidence": "Door E and CRAWLSPACE ACCESS are drawn beneath the stair; note 4 identifies the closet below the stairs.",
+              "drawnSteps": 17,
+              "stepEvidence": "17 R @ 7.7\" [195]. Upper treads are partly obscured by the under-stair closet drawing; the visible run terminates at the hall-side enclosure.",
+              "steps": 17
+            }
+          ],
+          "rise": 2.85,
+          "steps": 17
+        }
+      ],
+      "outdoor": [
+        {
+          "id": "f1-d1",
+          "kind": "porch",
+          "min": [
+            -8.981290742858107,
+            -6.263268544361575
+          ],
+          "max": [
+            -5.702624936178266,
+            -0.5688883671271813
+          ],
+          "covered": true,
+          "posts": [
+            {
+              "at": [
+                -8.83838158783099,
+                -5.787820778598278
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post1"
+            },
+            {
+              "at": [
+                -7.865500032454071,
+                -5.826296320336349
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post2"
+            },
+            {
+              "at": [
+                -6.865135947264245,
+                -5.842785838224093
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post3"
+            },
+            {
+              "at": [
+                -5.702624936178266,
+                -6.158172343632433
+              ],
+              "size": 0.5441540902955646,
+              "w": 0.3682658994929579,
+              "d": 0.5441540902955646,
+              "id": "f1-d1-post4"
+            },
+            {
+              "at": [
+                -8.893346647456804,
+                -4.028938870572211
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post5"
+            },
+            {
+              "at": [
+                -8.87685712956906,
+                -3.506770804126972
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post6"
+            },
+            {
+              "at": [
+                -8.893346647456804,
+                -2.2095953969577473
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post7"
+            },
+            {
+              "at": [
+                -8.83838158783099,
+                -1.038839626927896
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post8"
+            },
+            {
+              "at": [
+                -7.865500032454071,
+                -0.9838745673020816
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post9"
+            },
+            {
+              "at": [
+                -6.865135947264245,
+                -0.9838745673020816
+              ],
+              "size": 0.17588819080260676,
+              "w": 0.17588819080260676,
+              "d": 0.17588819080260676,
+              "id": "f1-d1-post10"
+            },
+            {
+              "at": [
+                -5.8922543918873265,
+                -0.8409654122749636
+              ],
+              "size": 0.5441540902955646,
+              "w": 0.3682658994929579,
+              "d": 0.5441540902955646,
+              "id": "f1-d1-post11"
+            }
+          ]
+        },
+        {
+          "id": "f1-d2",
+          "kind": "porch",
+          "min": [
+            6.601303661060335,
+            -5.952715957475722
+          ],
+          "max": [
+            9.866228202833723,
+            -2.110658289631281
+          ],
+          "covered": true,
+          "posts": [
+            {
+              "at": [
+                6.73321980416229,
+                -5.496505962581462
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post1"
+            },
+            {
+              "at": [
+                7.744576901277279,
+                -5.853778850149256
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post2"
+            },
+            {
+              "at": [
+                8.733947974541941,
+                -5.853778850149256
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post3"
+            },
+            {
+              "at": [
+                9.717822541844024,
+                -5.8098068024486045
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post4"
+            },
+            {
+              "at": [
+                9.767291095507257,
+                -4.606071996643265
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post5"
+            },
+            {
+              "at": [
+                9.767291095507257,
+                -3.407833696800506
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post6"
+            },
+            {
+              "at": [
+                9.745305071656931,
+                -2.2095953969577473
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post7"
+            },
+            {
+              "at": [
+                8.72845146857936,
+                -2.215091902920329
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post8"
+            },
+            {
+              "at": [
+                7.75007340723986,
+                -2.215091902920329
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post9"
+            },
+            {
+              "at": [
+                6.700240768386801,
+                -2.2095953969577473
+              ],
+              "size": 0.1978742146529326,
+              "w": 0.1978742146529326,
+              "d": 0.1978742146529326,
+              "id": "f1-d2-post10"
+            }
+          ]
+        },
+        {
+          "id": "f1-d3",
+          "kind": "porch",
+          "min": [
+            -5.864771862074419,
+            1.989735158454489
+          ],
+          "max": [
+            9.85523519090856,
+            5.139233075013666
+          ],
+          "covered": true,
+          "posts": [
+            {
+              "at": [
+                -5.589946563945346,
+                5.00182042594913
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.2748252981290731,
+              "d": 0.23085325042842136,
+              "id": "f1-d3-post1"
+            },
+            {
+              "at": [
+                -3.1659874344469214,
+                5.00182042594913
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.23085325042842136,
+              "d": 0.2748252981290731,
+              "id": "f1-d3-post2"
+            },
+            {
+              "at": [
+                -0.7695108347614046,
+                5.00182042594913
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.23085325042842136,
+              "d": 0.2748252981290731,
+              "id": "f1-d3-post3"
+            },
+            {
+              "at": [
+                1.632462270886694,
+                5.00182042594913
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.23085325042842136,
+              "d": 0.2748252981290731,
+              "id": "f1-d3-post4"
+            },
+            {
+              "at": [
+                4.0619179063477,
+                5.00182042594913
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.2748252981290731,
+              "d": 0.23085325042842136,
+              "id": "f1-d3-post5"
+            },
+            {
+              "at": [
+                6.425415470257728,
+                5.00182042594913
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.23085325042842136,
+              "d": 0.2748252981290731,
+              "id": "f1-d3-post6"
+            },
+            {
+              "at": [
+                9.717822541844024,
+                5.012813437874293
+              ],
+              "size": 0.2748252981290731,
+              "w": 0.2748252981290731,
+              "d": 0.23085325042842136,
+              "id": "f1-d3-post7"
+            }
+          ]
+        },
+        {
+          "id": "f1-d4",
+          "kind": "porch",
+          "min": [
+            6.744212816087453,
+            -2.2095953969577473
+          ],
+          "max": [
+            9.871724708796304,
+            1.989735158454489
+          ],
+          "covered": true,
+          "posts": [
+            {
+              "at": [
+                9.750801577619512,
+                1.346643960832458
+              ],
+              "size": 0.2418462623535843,
+              "w": 0.2418462623535843,
+              "d": 0.2418462623535843,
+              "id": "f1-d4-post1"
+            }
+          ]
+        },
+        {
+          "id": "f1-d5",
+          "kind": "porch",
+          "min": [
+            -0.500182042594913,
+            -7.651136299913394
+          ],
+          "max": [
+            1.3686299846827839,
+            -6.408925952369984
+          ],
+          "covered": false,
+          "posts": []
+        }
+      ],
+      "barriers": [
+        {
+          "id": "f1-b2",
+          "a": [
+            -8.865864117643897,
+            -5.815303308411186
+          ],
+          "b": [
+            -8.865864117643897,
+            -4.529120913167124
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b3",
+          "a": [
+            -8.865864117643897,
+            -3.418826708725669
+          ],
+          "b": [
+            -8.865864117643897,
+            -1.0113570971149888
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b5",
+          "a": [
+            6.744212816087453,
+            -5.815303308411186
+          ],
+          "b": [
+            9.745305071656931,
+            -5.815303308411186
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b6",
+          "a": [
+            9.745305071656931,
+            -5.815303308411186
+          ],
+          "b": [
+            9.745305071656931,
+            1.3851195025705283
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b7",
+          "a": [
+            6.744212816087453,
+            -2.2095953969577473
+          ],
+          "b": [
+            7.744576901277279,
+            -2.2095953969577473
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b8",
+          "a": [
+            8.733947974541941,
+            -2.2095953969577473
+          ],
+          "b": [
+            9.745305071656931,
+            -2.2095953969577473
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b9",
+          "a": [
+            9.745305071656931,
+            3.089036350970781
+          ],
+          "b": [
+            9.745305071656931,
+            4.9798344020988035
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b10",
+          "a": [
+            1.632462270886694,
+            4.9798344020988035
+          ],
+          "b": [
+            9.745305071656931,
+            4.9798344020988035
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b11",
+          "a": [
+            -5.556967528169857,
+            4.9798344020988035
+          ],
+          "b": [
+            -0.7640143287988231,
+            4.9798344020988035
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b12",
+          "a": [
+            -5.556967528169857,
+            1.989735158454489
+          ],
+          "b": [
+            -5.556967528169857,
+            4.9798344020988035
+          ],
+          "height": 1
+        },
+        {
+          "id": "f1-b13",
+          "a": [
+            0.8849374599756152,
+            -3.0120852674946406
+          ],
+          "b": [
+            0.8849374599756152,
+            -1.1102942044414552
+          ],
+          "height": 1
+        }
+      ],
+      "outline": [
+        [
+          6.770772218704224,
+          -1.2386738508939743
+        ],
+        [
+          7.4408005103468895,
+          -0.6005516573786736
+        ],
+        [
+          7.512800522148609,
+          -0.6005516573786736
+        ],
+        [
+          7.512800522148609,
+          -0.5319802314043045
+        ],
+        [
+          7.56245569139719,
+          -0.4846895933151245
+        ],
+        [
+          7.512800522148609,
+          -0.43255165964365005
+        ],
+        [
+          7.512800522148609,
+          0.4855046793818474
+        ],
+        [
+          7.562484070658684,
+          0.5368172004818916
+        ],
+        [
+          7.512800522148609,
+          0.5849234983325005
+        ],
+        [
+          7.512800522148609,
+          0.654080368578434
+        ],
+        [
+          7.441376209259033,
+          0.654080368578434
+        ],
+        [
+          6.770772218704224,
+          1.3033953607082367
+        ],
+        [
+          6.770772218704224,
+          2.028407506644726
+        ],
+        [
+          -1.3521404713392258,
+          2.0304277315735817
+        ],
+        [
+          -1.3521404713392258,
+          1.9943085312843323
+        ],
+        [
+          -5.3435269221663475,
+          1.9943085312843323
+        ],
+        [
+          -5.3435269221663475,
+          2.148210696876049
+        ],
+        [
+          -5.9133172780275345,
+          2.148210696876049
+        ],
+        [
+          -5.9133172780275345,
+          -6.458901628851891
+        ],
+        [
+          6.770772218704224,
+          -6.458901628851891
+        ]
+      ],
+      "holes": [],
+      "roofRegions": [],
+      "roofPitchNotes": [
+        {
+          "label": "10:12",
+          "pitch_degrees": 39.8056
+        },
+        {
+          "label": "3:12",
+          "pitch_degrees": 14.0362
+        },
+        {
+          "label": "2.5:12",
+          "pitch_degrees": 11.7683
+        }
+      ],
+      "holeIds": []
+    },
+    {
+      "id": "f0",
+      "page": 1,
+      "name": "2ND FLOOR PLAN",
+      "storey": 1,
+      "level": 1,
+      "elevation": 2.85,
+      "ceilingHeight": 2.7,
+      "ceilingSource": "drawing",
+      "roofEaveHeight": 3.175,
+      "offset": [
+        0,
+        -0.12000000000000004
+      ],
+      "placement": "matched",
+      "walls": [
+        {
+          "id": "f0-w1",
+          "a": [
+            -5.780360066817661,
+            -6.324382237722586
+          ],
+          "b": [
+            6.638500118193209,
+            -6.324382237722586
+          ],
+          "thickness": 0.21173430211526068,
+          "exterior": true
+        },
+        {
+          "id": "f0-w5",
+          "a": [
+            6.638500118193209,
+            -6.324382237722586
+          ],
+          "b": [
+            6.638500118193209,
+            -1.2316880340572132
+          ],
+          "thickness": 0.21387752321224784,
+          "exterior": true
+        },
+        {
+          "id": "f0-w7",
+          "a": [
+            6.625982219868388,
+            -1.2316880340572132
+          ],
+          "b": [
+            7.325254252325118,
+            -0.5452369377839208
+          ],
+          "thickness": 0.10449601054678818,
+          "exterior": true
+        },
+        {
+          "id": "f0-w8",
+          "a": [
+            7.3590142497338045,
+            -0.5452369377839208
+          ],
+          "b": [
+            7.3590142497338045,
+            0.552567906091995
+          ],
+          "thickness": 0.15551663527782544,
+          "exterior": true
+        },
+        {
+          "id": "f0-w9",
+          "a": [
+            7.325254252325118,
+            0.552567906091995
+          ],
+          "b": [
+            6.625982219868388,
+            1.227384238021675
+          ],
+          "thickness": 0.1319949606906798,
+          "exterior": true
+        },
+        {
+          "id": "f0-w10",
+          "a": [
+            6.636212439574855,
+            1.227384238021675
+          ],
+          "b": [
+            6.636212439574855,
+            1.8295873959671145
+          ],
+          "thickness": 0.21845288044895472,
+          "exterior": true
+        },
+        {
+          "id": "f0-w11",
+          "a": [
+            6.636212439574855,
+            1.8295873959671145
+          ],
+          "b": [
+            -5.780360066817661,
+            1.8295873959671145
+          ],
+          "thickness": 0.2103654057231199,
+          "exterior": true
+        },
+        {
+          "id": "f0-w14",
+          "a": [
+            -5.780360066817661,
+            1.8295873959671145
+          ],
+          "b": [
+            -5.780360066817661,
+            -6.324382237722586
+          ],
+          "thickness": 0.21279563821416758,
+          "exterior": true
+        },
+        {
+          "id": "f0-w17",
+          "a": [
+            -1.135029454131958,
+            -6.324382237722586
+          ],
+          "b": [
+            -1.135029454131958,
+            -3.4286077545864138
+          ],
+          "thickness": 0.20899202109357637,
+          "exterior": false
+        },
+        {
+          "id": "f0-w19",
+          "a": [
+            -1.1345237528039185,
+            -3.4290880041672454
+          ],
+          "b": [
+            -1.9407811873179481,
+            -2.6634091864571303
+          ],
+          "thickness": 0.16499370086334975,
+          "exterior": false
+        },
+        {
+          "id": "f0-w20",
+          "a": [
+            -5.780360066817661,
+            -2.6575150201967146
+          ],
+          "b": [
+            -1.9407811873179481,
+            -2.6575150201967146
+          ],
+          "thickness": 0.16079028991278346,
+          "exterior": false
+        },
+        {
+          "id": "f0-w23",
+          "a": [
+            -3.7858183472706695,
+            -2.537657707388389
+          ],
+          "b": [
+            -3.7858183472706695,
+            -1.9551120727152744
+          ],
+          "thickness": 0.37398572195692614,
+          "exterior": false
+        },
+        {
+          "id": "f0-w24",
+          "a": [
+            -3.1917930301939035,
+            -2.537657707388389
+          ],
+          "b": [
+            -3.1917930301939035,
+            -1.9551120727152744
+          ],
+          "thickness": 0.3959848820720394,
+          "exterior": false
+        },
+        {
+          "id": "f0-w25",
+          "a": [
+            -1.9407811873179481,
+            -2.6575150201967146
+          ],
+          "b": [
+            -1.9407811873179481,
+            -1.8429975511249204
+          ],
+          "thickness": 0.16499370086334975,
+          "exterior": false
+        },
+        {
+          "id": "f0-w26",
+          "a": [
+            -5.780360066817661,
+            -1.8494410041001528
+          ],
+          "b": [
+            -1.9407811873179481,
+            -1.8494410041001528
+          ],
+          "thickness": 0.15479944720286423,
+          "exterior": false
+        },
+        {
+          "id": "f0-w29",
+          "a": [
+            -1.9407811873179481,
+            -1.8429975511249204
+          ],
+          "b": [
+            -1.135029454131958,
+            -1.067021538374096
+          ],
+          "thickness": 0.16499370086334975,
+          "exterior": false
+        },
+        {
+          "id": "f0-w30",
+          "a": [
+            -1.135029454131958,
+            -1.0735624086093187
+          ],
+          "b": [
+            -1.135029454131958,
+            1.8295873959671145
+          ],
+          "thickness": 0.20899202109357637,
+          "exterior": false
+        },
+        {
+          "id": "f0-w31",
+          "a": [
+            -1.135029454131958,
+            -4.377418107123477
+          ],
+          "b": [
+            -0.5118354937047132,
+            -4.377418107123477
+          ],
+          "thickness": 0.16499370086334975,
+          "exterior": false
+        },
+        {
+          "id": "f0-w32",
+          "a": [
+            -0.5118354937047132,
+            -4.377418107123477
+          ],
+          "b": [
+            -0.5118354937047132,
+            -3.4290880041672454
+          ],
+          "thickness": 0.1759932809209064,
+          "exterior": false
+        },
+        {
+          "id": "f0-w33",
+          "a": [
+            -0.5118354937047132,
+            -3.4290880041672454
+          ],
+          "b": [
+            -1.1345237528039185,
+            -3.4290880041672454
+          ],
+          "thickness": 0.1539941208057931,
+          "exterior": false
+        },
+        {
+          "id": "f0-w34",
+          "a": [
+            1.988936148053357,
+            -6.324382237722586
+          ],
+          "b": [
+            1.988936148053357,
+            1.8295873959671145
+          ],
+          "thickness": 0.20748634087258297,
+          "exterior": false
+        },
+        {
+          "id": "f0-w38",
+          "a": [
+            4.252612028348705,
+            -6.324382237722586
+          ],
+          "b": [
+            4.252612028348705,
+            -2.041816539271273
+          ],
+          "thickness": 0.17438976157747743,
+          "exterior": false
+        },
+        {
+          "id": "f0-w41",
+          "a": [
+            1.988936148053357,
+            -3.729370615131056
+          ],
+          "b": [
+            4.252612028348705,
+            -3.729370615131056
+          ],
+          "thickness": 0.16307144415426217,
+          "exterior": false
+        },
+        {
+          "id": "f0-w43",
+          "a": [
+            1.988936148053357,
+            -5.252591316423084
+          ],
+          "b": [
+            2.8661702264461146,
+            -5.252591316423084
+          ],
+          "thickness": 0.13749475071945813,
+          "exterior": false
+        },
+        {
+          "id": "f0-w44",
+          "a": [
+            2.964718205315992,
+            -5.201110539405459
+          ],
+          "b": [
+            4.252612028348705,
+            -5.201110539405459
+          ],
+          "thickness": 0.07,
+          "exterior": false
+        },
+        {
+          "id": "f0-w45",
+          "a": [
+            2.964718205315992,
+            -5.201110539405459
+          ],
+          "b": [
+            2.964718205315992,
+            -4.4422158600549535
+          ],
+          "thickness": 0.07699706040289656,
+          "exterior": false
+        },
+        {
+          "id": "f0-w45-2",
+          "a": [
+            2.8661702264461146,
+            -5.252591316423084
+          ],
+          "b": [
+            2.8661702264461146,
+            -3.729370615131056
+          ],
+          "thickness": 0.07699706040289656,
+          "exterior": false
+        },
+        {
+          "id": "f0-w46",
+          "a": [
+            4.252612028348705,
+            -4.656498108850595
+          ],
+          "b": [
+            6.638500118193209,
+            -4.656498108850595
+          ],
+          "thickness": 0.07699706040289656,
+          "exterior": false
+        },
+        {
+          "id": "f0-w47",
+          "a": [
+            0.9499595261984819,
+            -2.0816269234252536
+          ],
+          "b": [
+            4.252612028348705,
+            -2.0816269234252536
+          ],
+          "thickness": 0.14658917475397393,
+          "exterior": false
+        },
+        {
+          "id": "f0-w48",
+          "a": [
+            4.252612028348705,
+            -2.125811491247397
+          ],
+          "b": [
+            6.638500118193209,
+            -2.125811491247397
+          ],
+          "thickness": 0.07,
+          "exterior": false
+        },
+        {
+          "id": "f0-w50",
+          "a": [
+            0.9499595261984819,
+            -2.0816269234252536
+          ],
+          "b": [
+            0.9499595261984819,
+            -1.0735624086093187
+          ],
+          "thickness": 0.1099958005755665,
+          "exterior": false
+        },
+        {
+          "id": "f0-w51",
+          "a": [
+            -1.135029454131958,
+            -1.0735624086093187
+          ],
+          "b": [
+            1.988936148053357,
+            -1.0735624086093187
+          ],
+          "thickness": 0.16143729953731994,
+          "exterior": false
+        },
+        {
+          "id": "f0-wi1",
+          "a": [
+            4.252612028348705,
+            -2.041816539271273
+          ],
+          "b": [
+            5.258696157898158,
+            -2.041816539271273
+          ],
+          "thickness": 0.07,
+          "exterior": false
+        }
+      ],
+      "openings": [
+        {
+          "id": "f0-o1",
+          "kind": "window",
+          "wallId": "f0-w1",
+          "offset": 1.5072767129125937,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o2",
+          "kind": "window",
+          "wallId": "f0-w1",
+          "offset": 3.6096335954699974,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o3",
+          "kind": "window",
+          "wallId": "f0-w1",
+          "offset": 6.215680147806779,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o4",
+          "kind": "window",
+          "wallId": "f0-w1",
+          "offset": 8.832676475573546,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o5",
+          "kind": "window",
+          "wallId": "f0-w1",
+          "offset": 10.913133807270977,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o8",
+          "kind": "window",
+          "wallId": "f0-w5",
+          "offset": 2.9982557875905878,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o9",
+          "kind": "window",
+          "wallId": "f0-w7",
+          "offset": 0.4896142628044282,
+          "width": 0.6,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "3 — 24x72 [600x1800] DH WINDOW 4/4 DIVIDED LITES",
+            "width": 0.6,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o10",
+          "kind": "window",
+          "wallId": "f0-w8",
+          "offset": 0.5138802167798556,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "1 — 36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o11",
+          "kind": "window",
+          "wallId": "f0-w9",
+          "offset": 0.4651632588686895,
+          "width": 0.6,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "3 — 24x72 [600x1800] DH WINDOW 4/4 DIVIDED LITES",
+            "width": 0.6,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o18",
+          "kind": "window",
+          "wallId": "f0-w11",
+          "offset": 1.262543639661836,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "1 — 36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o17",
+          "kind": "window",
+          "wallId": "f0-w11",
+          "offset": 3.507247602809064,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "1 — 36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o16",
+          "kind": "window",
+          "wallId": "f0-w11",
+          "offset": 5.44535785391667,
+          "width": 0.35,
+          "height": 1.1,
+          "sill": 0.9,
+          "dimensions": {
+            "text": "4 — 14x44 [350x1100] SIDELIGHT & 14x16 [350x400] TRANSOM",
+            "width": 0.35,
+            "height": 1.1
+          }
+        },
+        {
+          "id": "f0-o15",
+          "kind": "door",
+          "wallId": "f0-w11",
+          "offset": 6.189942583155751,
+          "width": 0.9,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "A — 36x80 [900x2000] 9-LITE DOOR & 36x16 [900x400] TRANSOM",
+            "width": 0.9,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o14",
+          "kind": "window",
+          "wallId": "f0-w11",
+          "offset": 6.934527312394831,
+          "width": 0.35,
+          "height": 1.1,
+          "sill": 0.9,
+          "dimensions": {
+            "text": "4 — 14x44 [350x1100] SIDELIGHT & 14x16 [350x400] TRANSOM",
+            "width": 0.35,
+            "height": 1.1
+          }
+        },
+        {
+          "id": "f0-o13",
+          "kind": "window",
+          "wallId": "f0-w11",
+          "offset": 8.872637563502437,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "1 — 36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o12",
+          "kind": "window",
+          "wallId": "f0-w11",
+          "offset": 11.128291302079653,
+          "width": 0.9,
+          "height": 1.8,
+          "sill": 0.3,
+          "dimensions": {
+            "text": "1 — 36x72 [900x1800] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.8
+          }
+        },
+        {
+          "id": "f0-o7",
+          "kind": "window",
+          "wallId": "f0-w14",
+          "offset": 1.8501060586516784,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o6",
+          "kind": "window",
+          "wallId": "f0-w14",
+          "offset": 6.001082395020093,
+          "width": 0.9,
+          "height": 1.5,
+          "sill": 0.6,
+          "dimensions": {
+            "text": "2 — 36x60 [900x1500] DH WINDOW 6/6 DIVIDED LITES",
+            "width": 0.9,
+            "height": 1.5
+          }
+        },
+        {
+          "id": "f0-o19",
+          "kind": "door",
+          "wallId": "f0-w19",
+          "offset": 0.5476523331649752,
+          "width": 0.8,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "C — 32x80 [800x2000] 6-PANEL DOOR & 32x16 [800x400] TRANSOM",
+            "width": 0.8,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o21",
+          "kind": "door",
+          "wallId": "f0-w20",
+          "offset": 3.3358892097203343,
+          "width": 0.7,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "E — 28x80 [700x2000] 5-PANEL DOOR",
+            "width": 0.7,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o22",
+          "kind": "door",
+          "wallId": "f0-w26",
+          "offset": 1.0692856957131343,
+          "width": 0.7,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "E — 28x80 [700x2000] 5-PANEL DOOR",
+            "width": 0.7,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o20",
+          "kind": "door",
+          "wallId": "f0-w29",
+          "offset": 0.5716715501717866,
+          "width": 0.8,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "C — 32x80 [800x2000] 6-PANEL DOOR & 32x16 [800x400] TRANSOM",
+            "width": 0.8,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o23",
+          "kind": "door",
+          "wallId": "f0-w32",
+          "offset": 0.48771262437749047,
+          "width": 0.6,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "F — 24x80 [600x2000] 1-PANEL DOOR (OPTIONAL: LOUVERS)",
+            "width": 0.6,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o24",
+          "kind": "door",
+          "wallId": "f0-w34",
+          "offset": 0.570530724022637,
+          "width": 0.7,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "E — 28x80 [700x2000] 5-PANEL DOOR",
+            "width": 0.7,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o32",
+          "kind": "sliding_door",
+          "wallId": "f0-w34",
+          "offset": 6.3038635750380205,
+          "width": 1.5,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "H — 60x80 [1500x2000] 5-PANEL POCKET DRS & 60x14 [1500x350] TR",
+            "width": 1.5,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o25",
+          "kind": "door",
+          "wallId": "f0-w43",
+          "offset": 0.48304216291324453,
+          "width": 0.6,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "F — 24x80 [600x2000] 1-PANEL DOOR (OPTIONAL: LOUVERS)",
+            "width": 0.6,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o26",
+          "kind": "door",
+          "wallId": "f0-w44",
+          "offset": 0.3722923646195404,
+          "width": 0.6,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "F — 24x80 [600x2000] 1-PANEL DOOR (OPTIONAL: LOUVERS)",
+            "width": 0.6,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o27",
+          "kind": "opening",
+          "wallId": "f0-w46",
+          "offset": 1.3619518310240164,
+          "width": 0.7007856275191348,
+          "height": 2.1,
+          "sill": 0
+        },
+        {
+          "id": "f0-o28",
+          "kind": "door",
+          "wallId": "f0-w47",
+          "offset": 2.025708454547498,
+          "width": 0.7,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "E — 28x80 [700x2000] 5-PANEL DOOR",
+            "width": 0.7,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o29",
+          "kind": "door",
+          "wallId": "f0-w48",
+          "offset": 1.3619518310240166,
+          "width": 0.7,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "E — 28x80 [700x2000] 5-PANEL DOOR",
+            "width": 0.7,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o30",
+          "kind": "door",
+          "wallId": "f0-w50",
+          "offset": 0.5004278627327206,
+          "width": 0.8,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "D — 32x80 [800x2000] 6-PANEL DOOR",
+            "width": 0.8,
+            "height": 2
+          }
+        },
+        {
+          "id": "f0-o31",
+          "kind": "door",
+          "wallId": "f0-w51",
+          "offset": 1.5265504334011288,
+          "width": 0.8,
+          "height": 2,
+          "sill": 0,
+          "dimensions": {
+            "text": "C — 32x80 [800x2000] 6-PANEL DOOR & 32x16 [800x400] TRANSOM",
+            "width": 0.8,
+            "height": 2
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "id": "f0-r1",
+          "name": "BEDROOM 3",
+          "at": [
+            -3.5175488492360008,
+            -4.19317111569198
+          ]
+        },
+        {
+          "id": "f0-r2",
+          "name": "BEDROOM 2",
+          "at": [
+            -3.5284986246659873,
+            0.2721089119419293
+          ]
+        },
+        {
+          "id": "f0-r3",
+          "name": "UPSTAIRS ALCOVE",
+          "at": [
+            -0.5501597077096658,
+            -5.461223939073454
+          ]
+        },
+        {
+          "id": "f0-r4",
+          "name": "LINEN",
+          "at": [
+            -0.791054767169368,
+            -3.878867424426486
+          ]
+        },
+        {
+          "id": "f0-r5",
+          "name": "UPPER HALL",
+          "at": [
+            -0.593958809429612,
+            -2.4157295512940165
+          ]
+        },
+        {
+          "id": "f0-r6",
+          "name": "BATH",
+          "at": [
+            3.00851730703594,
+            -6.046479088326443
+          ]
+        },
+        {
+          "id": "f0-r7",
+          "name": "ENSUITE BATH",
+          "at": [
+            5.592664308512748,
+            -4.897644906459465
+          ]
+        },
+        {
+          "id": "f0-r8",
+          "name": "WIC",
+          "at": [
+            3.468407875095372,
+            -3.0226608171860034
+          ]
+        },
+        {
+          "id": "f0-r9",
+          "name": "LAUNDRY",
+          "at": [
+            1.4317496451178862,
+            -1.7654460521240294
+          ]
+        },
+        {
+          "id": "f0-r10",
+          "name": "SITTING ROOM",
+          "at": [
+            0.7419137930287381,
+            0.2612708536224293
+          ]
+        },
+        {
+          "id": "f0-r11",
+          "name": "MAIN BEDROOM",
+          "at": [
+            4.245841930624411,
+            -0.2264417707550601
+          ]
+        },
+        {
+          "id": "f0-r12",
+          "name": "UPPER PORCH",
+          "at": [
+            0.45721963184908976,
+            3.7231972398762334
+          ]
+        }
+      ],
+      "fixtures": [],
+      "stairs": [],
+      "outdoor": [
+        {
+          "id": "f0-d1",
+          "kind": "balcony",
+          "min": [
+            -5.6691797212283435,
+            1.9086557181863952
+          ],
+          "max": [
+            6.51244544463161,
+            5.04864663681181
+          ],
+          "covered": true,
+          "posts": [
+            {
+              "at": [
+                -5.532307528353512,
+                4.878153145919682
+              ],
+              "size": 0.27498950143891626,
+              "w": 0.27498950143891626,
+              "d": 0.27498950143891626,
+              "id": "f0-d1-post1"
+            },
+            {
+              "at": [
+                -3.1452564846164606,
+                4.911151886092352
+              ],
+              "size": 0.27498950143891626,
+              "w": 0.27498950143891626,
+              "d": 0.27498950143891626,
+              "id": "f0-d1-post2"
+            },
+            {
+              "at": [
+                -0.7582054408794088,
+                4.911151886092352
+              ],
+              "size": 0.27498950143891626,
+              "w": 0.27498950143891626,
+              "d": 0.27498950143891626,
+              "id": "f0-d1-post3"
+            },
+            {
+              "at": [
+                1.628845602857643,
+                4.911151886092352
+              ],
+              "size": 0.27498950143891626,
+              "w": 0.27498950143891626,
+              "d": 0.27498950143891626,
+              "id": "f0-d1-post4"
+            },
+            {
+              "at": [
+                4.026846422024682,
+                4.911151886092352
+              ],
+              "size": 0.27498950143891626,
+              "w": 0.27498950143891626,
+              "d": 0.27498950143891626,
+              "id": "f0-d1-post5"
+            },
+            {
+              "at": [
+                6.375573251756779,
+                4.88365293594846
+              ],
+              "size": 0.27498950143891626,
+              "w": 0.27498950143891626,
+              "d": 0.27498950143891626,
+              "id": "f0-d1-post6"
+            }
+          ]
+        }
+      ],
+      "barriers": [
+        {
+          "id": "f0-b1",
+          "a": [
+            0.8399025225639343,
+            -5.1360821894884605
+          ],
+          "b": [
+            0.8399025225639343,
+            -2.079749743389524
+          ],
+          "height": 1
+        },
+        {
+          "id": "f0-b2",
+          "a": [
+            -5.532307528353512,
+            1.930331834825397
+          ],
+          "b": [
+            -5.532307528353512,
+            4.8891527259772385
+          ],
+          "height": 1
+        },
+        {
+          "id": "f0-b3",
+          "a": [
+            -5.532307528353512,
+            4.8891527259772385
+          ],
+          "b": [
+            6.42484724119172,
+            4.8891527259772385
+          ],
+          "height": 1
+        },
+        {
+          "id": "f0-b4",
+          "a": [
+            6.42484724119172,
+            4.8891527259772385
+          ],
+          "b": [
+            6.42484724119172,
+            1.930331834825397
+          ],
+          "height": 1
+        }
+      ],
+      "outline": [
+        [
+          6.745438879799333,
+          -1.2829495433329976
+        ],
+        [
+          7.369319834775621,
+          -0.6634748184142554
+        ],
+        [
+          7.436772567372717,
+          -0.6634748184142554
+        ],
+        [
+          7.436772567372717,
+          -0.5964984430422691
+        ],
+        [
+          7.486387041550078,
+          -0.5507163883069746
+        ],
+        [
+          7.436772567372717,
+          -0.498516180387389
+        ],
+        [
+          7.436772567372717,
+          0.5064287571823467
+        ],
+        [
+          7.486333479326166,
+          0.5594716584225434
+        ],
+        [
+          7.436772567372717,
+          0.6044291525360848
+        ],
+        [
+          7.436772567372717,
+          0.670805783387463
+        ],
+        [
+          7.368771276453457,
+          0.670805783387463
+        ],
+        [
+          6.745438879799333,
+          1.2792455057104144
+        ],
+        [
+          6.745438879799333,
+          1.9347700988286745
+        ],
+        [
+          -5.8867578859247445,
+          1.9347700988286745
+        ],
+        [
+          -5.8867578859247445,
+          -6.430249388780216
+        ],
+        [
+          6.745438879799333,
+          -6.430249388780216
+        ]
+      ],
+      "holes": [
+        [
+          [
+            1.920798048377037,
+            -5.124225735664368
+          ],
+          [
+            1.920798048377037,
+            -2.37032999843359
+          ],
+          [
+            1.8907980546355247,
+            -2.37032999843359
+          ],
+          [
+            1.9135397672653198,
+            -2.369329996407032
+          ],
+          [
+            1.9135397672653198,
+            -2.123101979494095
+          ],
+          [
+            0.8999025225639343,
+            -2.123101979494095
+          ],
+          [
+            0.8999025225639343,
+            -5.125025890767574
+          ]
+        ]
+      ],
+      "roofRegions": [
+        {
+          "id": "f0-roof1",
+          "min": [
+            -9.305644728692926,
+            -6.213767351886385
+          ],
+          "max": [
+            -5.873775750735251,
+            -0.8569718638562955
+          ],
+          "pitch": 11.7683,
+          "storey": 0,
+          "label": "SLOPE DOWN: 2.5/12 [1/5]",
+          "rise": [
+            1,
+            0
+          ],
+          "sourcePage": 1
+        },
+        {
+          "id": "f0-roof2",
+          "min": [
+            6.73174299522467,
+            -6.202767771828828
+          ],
+          "max": [
+            10.163611973182345,
+            5.291793388317872
+          ],
+          "pitch": 11.7683,
+          "storey": 0,
+          "label": "SLOPE DOWN: 2.5/12 [1/5]",
+          "rise": [
+            -1,
+            0
+          ],
+          "sourcePage": 1
+        },
+        {
+          "id": "f0-roof3",
+          "min": [
+            6.46775307384331,
+            1.8929231505328667
+          ],
+          "max": [
+            10.163611973182345,
+            5.291793388317872
+          ],
+          "pitch": 11.7683,
+          "storey": 0,
+          "label": "SLOPE DOWN: 2.5/12 [1/5]",
+          "rise": [
+            0,
+            -1
+          ],
+          "sourcePage": 1
+        }
+      ],
+      "roofPitchNotes": [
+        {
+          "label": "10:12",
+          "pitch_degrees": 39.8056
+        },
+        {
+          "label": "3:12",
+          "pitch_degrees": 14.0362
+        },
+        {
+          "label": "2.5:12",
+          "pitch_degrees": 11.7683
+        }
+      ],
+      "holeIds": [
+        "f0-void1"
+      ]
+    }
+  ],
+  "roofs": [
+    {
+      "id": "main",
+      "floorId": "f0",
+      "kind": "gable",
+      "panels": [
+        {
+          "id": "roof-main-1-1",
+          "footprint": [
+            [
+              -6.12,
+              -6.88
+            ],
+            [
+              6.96,
+              -6.88
+            ],
+            [
+              6.96,
+              -0.69
+            ],
+            [
+              -6.12,
+              -0.69
+            ]
+          ],
+          "base": 5.550000000000001,
+          "thickness": 0.12,
+          "pitch": 22.5,
+          "rise": [
+            0,
+            1
+          ],
+          "pitchSource": "assumed",
+          "heightSource": "assumed",
+          "roofFloorId": "f0"
+        },
+        {
+          "id": "roof-main-1-2",
+          "footprint": [
+            [
+              -6.12,
+              -0.69
+            ],
+            [
+              6.96,
+              -0.69
+            ],
+            [
+              6.96,
+              5.5
+            ],
+            [
+              -6.12,
+              5.5
+            ]
+          ],
+          "base": 5.550000000000001,
+          "thickness": 0.12,
+          "pitch": 22.5,
+          "rise": [
+            0,
+            -1
+          ],
+          "pitchSource": "assumed",
+          "heightSource": "assumed",
+          "roofFloorId": "f0"
+        },
+        {
+          "id": "roof-main-2-1",
+          "footprint": [
+            [
+              -6.335,
+              -6.88
+            ],
+            [
+              7.195,
+              -6.88
+            ],
+            [
+              7.195,
+              -2.2474999999999996
+            ],
+            [
+              -6.335,
+              -2.2474999999999996
+            ]
+          ],
+          "base": 5.550000000000001,
+          "thickness": 0.12,
+          "pitch": 22.5,
+          "rise": [
+            0,
+            1
+          ],
+          "pitchSource": "assumed",
+          "heightSource": "assumed",
+          "roofFloorId": "f0"
+        },
+        {
+          "id": "roof-main-2-2",
+          "footprint": [
+            [
+              -6.335,
+              -2.2474999999999996
+            ],
+            [
+              7.195,
+              -2.2474999999999996
+            ],
+            [
+              7.195,
+              2.3850000000000002
+            ],
+            [
+              -6.335,
+              2.3850000000000002
+            ]
+          ],
+          "base": 5.550000000000001,
+          "thickness": 0.12,
+          "pitch": 22.5,
+          "rise": [
+            0,
+            -1
+          ],
+          "pitchSource": "assumed",
+          "heightSource": "assumed",
+          "roofFloorId": "f0"
+        },
+        {
+          "id": "roof-main-3-1",
+          "footprint": [
+            [
+              -6.335,
+              -0.601
+            ],
+            [
+              7.885,
+              -0.601
+            ],
+            [
+              7.885,
+              0.0030000000000000027
+            ],
+            [
+              -6.335,
+              0.0030000000000000027
+            ]
+          ],
+          "base": 5.550000000000001,
+          "thickness": 0.12,
+          "pitch": 22.5,
+          "rise": [
+            0,
+            1
+          ],
+          "pitchSource": "assumed",
+          "heightSource": "assumed",
+          "roofFloorId": "f0"
+        },
+        {
+          "id": "roof-main-3-2",
+          "footprint": [
+            [
+              -6.335,
+              0.0030000000000000027
+            ],
+            [
+              7.885,
+              0.0030000000000000027
+            ],
+            [
+              7.885,
+              0.607
+            ],
+            [
+              -6.335,
+              0.607
+            ]
+          ],
+          "base": 5.550000000000001,
+          "thickness": 0.12,
+          "pitch": 22.5,
+          "rise": [
+            0,
+            -1
+          ],
+          "pitchSource": "assumed",
+          "heightSource": "assumed",
+          "roofFloorId": "f0"
+        }
+      ]
+    },
+    {
+      "id": "lower",
+      "floorId": "f0",
+      "kind": "skillion",
+      "panels": [
+        {
+          "id": "roof-lower-1-drawing-1-1-1",
+          "footprint": [
+            [
+              -8.98,
+              -6.214
+            ],
+            [
+              -5.885,
+              -6.214
+            ],
+            [
+              -5.885,
+              -0.857
+            ],
+            [
+              -8.98,
+              -0.857
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-1-1",
+          "footprint": [
+            [
+              7.485,
+              -5.955
+            ],
+            [
+              9.855,
+              -5.955
+            ],
+            [
+              9.855,
+              5.14
+            ],
+            [
+              7.485,
+              5.14
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-2-1",
+          "footprint": [
+            [
+              7.485,
+              -5.955
+            ],
+            [
+              9.865,
+              -5.955
+            ],
+            [
+              9.865,
+              1.99
+            ],
+            [
+              7.485,
+              1.99
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-3-1",
+          "footprint": [
+            [
+              6.745,
+              -5.955
+            ],
+            [
+              9.865,
+              -5.955
+            ],
+            [
+              9.865,
+              -1.285
+            ],
+            [
+              6.745,
+              -1.285
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-4-1",
+          "footprint": [
+            [
+              7.37,
+              -5.955
+            ],
+            [
+              9.865,
+              -5.955
+            ],
+            [
+              9.865,
+              -0.665
+            ],
+            [
+              7.37,
+              -0.665
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-5-1",
+          "footprint": [
+            [
+              7.435,
+              -5.955
+            ],
+            [
+              9.865,
+              -5.955
+            ],
+            [
+              9.865,
+              -0.595
+            ],
+            [
+              7.435,
+              -0.595
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-6-1",
+          "footprint": [
+            [
+              6.745,
+              1.28
+            ],
+            [
+              9.855,
+              1.28
+            ],
+            [
+              9.855,
+              5.14
+            ],
+            [
+              6.745,
+              5.14
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-7-1",
+          "footprint": [
+            [
+              7.37,
+              0.67
+            ],
+            [
+              9.855,
+              0.67
+            ],
+            [
+              9.855,
+              5.14
+            ],
+            [
+              7.37,
+              5.14
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-8-1",
+          "footprint": [
+            [
+              7.435,
+              0.605
+            ],
+            [
+              9.855,
+              0.605
+            ],
+            [
+              9.855,
+              5.14
+            ],
+            [
+              7.435,
+              5.14
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-9-1",
+          "footprint": [
+            [
+              7.485,
+              -2.21
+            ],
+            [
+              9.87,
+              -2.21
+            ],
+            [
+              9.87,
+              1.99
+            ],
+            [
+              7.485,
+              1.99
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-10-1",
+          "footprint": [
+            [
+              6.732,
+              1.935
+            ],
+            [
+              9.855,
+              1.935
+            ],
+            [
+              9.855,
+              5.14
+            ],
+            [
+              6.732,
+              5.14
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        },
+        {
+          "id": "roof-lower-1-drawing-2-11-1",
+          "footprint": [
+            [
+              7.435,
+              -0.5
+            ],
+            [
+              9.87,
+              -0.5
+            ],
+            [
+              9.87,
+              0.505
+            ],
+            [
+              7.435,
+              0.505
+            ]
+          ],
+          "base": 2.5500000000000003,
+          "thickness": 0.12,
+          "pitch": 11.7683,
+          "rise": [
+            -1,
+            0
+          ],
+          "pitchSource": "drawing",
+          "sourcePage": 1,
+          "sourceText": "SLOPE DOWN: 2.5/12 [1/5]",
+          "heightSource": "assumed",
+          "roofFloorId": "f1"
+        }
+      ]
+    }
+  ],
+  "size": {
+    "source": "dimension",
+    "label": "42'-0\" [12600], 28'-0\" [8400], 16'-0\" [4800]",
+    "width": 18.85,
+    "depth": 11.6,
+    "confident": true
+  },
+  "settings": {
+    "ceilings": {},
+    "houseSize": null,
+    "rooms": [],
+    "roofs": {
+      "main": "gable",
+      "lower": "skillion"
+    },
+    "printScale": 100,
+    "stairs": "closed"
+  },
+  "notes": [
+    "Converted from the Southern Farmhouse 1st and 2nd floor plans (sheets A1.1 and A1.2), scaled from their printed dimensions.",
+    "Ceiling heights come from the drawing set. The main roof is simplified to a gable on the upper walls; the porch roofs keep their drawn 2.5:12 slope. Porch screens are shown as low rails.",
+    "This is a sample conversion for exploring the layout, not construction documentation."
+  ],
+  "validation": {
+    "version": 1,
+    "rooms": [
+      {
+        "floor": "f1",
+        "room": "f1-r1",
+        "name": "FAMILY ROOM",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r2",
+        "name": "LIVING ROOM",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r3",
+        "name": "CENTRAL HALL",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r4",
+        "name": "WC",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r5",
+        "name": "UTILITY ROOM",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r6",
+        "name": "KITCHEN",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r7",
+        "name": "DINING ROOM",
+        "reachable": true
+      },
+      {
+        "floor": "f1",
+        "room": "f1-r8",
+        "name": "ALCOVE",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r1",
+        "name": "BEDROOM 3",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r2",
+        "name": "BEDROOM 2",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r3",
+        "name": "UPSTAIRS ALCOVE",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r5",
+        "name": "UPPER HALL",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r6",
+        "name": "BATH",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r7",
+        "name": "ENSUITE BATH",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r8",
+        "name": "WIC",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r9",
+        "name": "LAUNDRY",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r10",
+        "name": "SITTING ROOM",
+        "reachable": true
+      },
+      {
+        "floor": "f0",
+        "room": "f0-r11",
+        "name": "MAIN BEDROOM",
+        "reachable": true
+      }
+    ],
+    "stairs": [
+      {
+        "floor": "f1",
+        "stair": "f1-s1",
+        "connected": true,
+        "issues": []
+      }
+    ],
+    "issues": [
+      {
+        "code": "source_uncertain",
+        "floor": "f1",
+        "message": "1ST FLOOR PLAN: the source check could not establish stairs. The main stair approaches from the bottom and ascends upward. Its lower tread run ends at a break adjoining CRAWLSPACE ACCESS; the orange rectangle also covers the under-stair enclosure. The source states 17 R @ 7.7 inches [195], but does not individually number the visible treads or establish an upper landing footprint here. Exterior BRICK STEPS are also drawn."
+      },
+      {
+        "code": "source_uncertain",
+        "floor": "f1",
+        "message": "1ST FLOOR PLAN: the source check could not establish barriers. At least one barrier could not be classified against the source."
+      },
+      {
+        "code": "source_door",
+        "floor": "f1",
+        "at": [
+          -8.866842495705235,
+          -4.040547491165183
+        ],
+        "message": "1ST FLOOR PLAN: I: west brick-step approach to SUNSET PORCH does not match the source jambs and connection in the final model."
+      },
+      {
+        "code": "source_door",
+        "floor": "f1",
+        "at": [
+          8.236555408723039,
+          -2.211766516812967
+        ],
+        "message": "1ST FLOOR PLAN: I: wrapping FRONT PORCH to BREAKFAST PORCH does not match the source jambs and connection in the final model."
+      }
+    ]
+  }
+}

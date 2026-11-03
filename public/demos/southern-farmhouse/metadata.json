@@ -1,0 +1,38 @@
+{
+  "title": "Southern Farmhouse",
+  "builder": "Designed by Jay Osborne",
+  "sourceUrl": "https://www.freefarmhouse.com/uploads/b/244cd9c0-4894-11ea-8aad-9b21e8eb84db/2022-06-27%20Southern%20Farmhouse%20Drawing%20Set.pdf",
+  "sourceLabel": "View the original drawings",
+  "description": "A real two-storey farmhouse, brought into 3D from its architectural drawings.",
+  "planUrl": "/demos/southern-farmhouse/plan.json",
+  "pages": [
+    {
+      "index": 0,
+      "url": "/demos/southern-farmhouse/page-1.png",
+      "width": 2359,
+      "height": 1934,
+      "sourcePage": 6,
+      "sha256": "a6559d2ec6920e137154c01d23a70f4ec3c7f2cd5465791e8b5ce4cbe31f5833"
+    },
+    {
+      "index": 1,
+      "url": "/demos/southern-farmhouse/page-2.png",
+      "width": 2360,
+      "height": 1934,
+      "sourcePage": 7,
+      "sha256": "8e0acc37d17ca491df957e274be798754372d294c1334313d4e49640e9a8a4f3"
+    }
+  ],
+  "sourceSha256": "b9e5a07a0a0a82832798fb2d82e07323691369271f63c2d667e1a3918377a780",
+  "planSha256": "be449aa4dcc90cb4692391917ef0de9c8fc83f125d008b472d009be60176455d",
+  "assumptions": [
+    "Converted from the Southern Farmhouse 1st and 2nd floor plans (sheets A1.1 and A1.2), scaled from their printed dimensions.",
+    "Ceiling heights come from the drawing set. The main roof is simplified to a gable on the upper walls; the porch roofs keep their drawn 2.5:12 slope. Porch screens are shown as low rails.",
+    "This is a sample conversion for exploring the layout, not construction documentation."
+  ],
+  "attribution": "Southern Farmhouse, a design by Jay Osborne (freefarmhouse.com), shared under CC BY-SA 4.0. Converted into this interactive 3D model, which is shared under the same licence.",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "publicationStatus": "approved",
+  "permissionEvidence": "Creative Commons Attribution-ShareAlike 4.0, printed on every sheet of the 2022-06-27 drawing set. Chosen as the example home by the owner on 5 October 2026."
+}

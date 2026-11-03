@@ -1,0 +1,40 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: homistry
+      POSTGRES_PASSWORD: homistry_prod_password
+      POSTGRES_DB: homistry
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U homistry -d homistry"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        DATABASE_PROVIDER: postgresql
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://homistry:homistry_prod_password@postgres:5432/homistry?schema=public
+      AUTH_SECRET: change-this-to-a-32-byte-production-secret
+      NEXTAUTH_URL: http://localhost:3000
+    ports:
+      - "3000:3000"
+    command: >
+      sh -c "npx prisma db push --schema=prisma/schema.postgresql.prisma && npm run start"
+
+volumes:
+  pgdata:

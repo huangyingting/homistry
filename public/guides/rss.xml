@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Homistry.ai guides</title>
+    <link>https://homistry.ai/guides</link>
+    <description>Plain-English guides for people building a new home.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://homistry.ai/guides/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Floor plan to 3D: how to turn your house plans into a 3D model</title>
+      <link>https://homistry.ai/floor-plan-to-3d</link>
+      <guid isPermaLink="true">https://homistry.ai/floor-plan-to-3d</guid>
+      <description>Upload your floor plan and walk through it in 3D in minutes. The ways to turn a 2D plan into 3D, what your plan needs, and how accurate the model is.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Homistry.ai team</dc:creator>
+      <category>floor plans</category>
+      <category>3D</category>
+      <category>new build</category>
+    </item>
+    <item>
+      <title>Choosing cladding for a new build</title>
+      <link>https://homistry.ai/guides/choosing-cladding-for-a-new-build</link>
+      <guid isPermaLink="true">https://homistry.ai/guides/choosing-cladding-for-a-new-build</guid>
+      <description>Brick, render, weatherboard, timber, fibre cement, metal or stone? How to compare cladding for your new home on looks, upkeep, climate and cost.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Homistry.ai team</dc:creator>
+      <category>cladding</category>
+      <category>exterior</category>
+      <category>finishes</category>
+      <category>new build</category>
+    </item>
+    <item>
+      <title>How to read a floor plan</title>
+      <link>https://homistry.ai/guides/how-to-read-a-floor-plan</link>
+      <guid isPermaLink="true">https://homistry.ai/guides/how-to-read-a-floor-plan</guid>
+      <description>A plain-English guide to your builder&apos;s floor plans: walls, doors, windows, dimensions, symbols and abbreviations, and what to check before you sign.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Homistry.ai team</dc:creator>
+      <category>floor plans</category>
+      <category>new build</category>
+      <category>basics</category>
+    </item>
+  </channel>
+</rss>

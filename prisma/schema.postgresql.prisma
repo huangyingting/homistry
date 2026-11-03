@@ -1,0 +1,255 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                   String    @id @default(uuid())
+  email                String    @unique
+  name                 String?
+  passwordHash         String?
+  emailVerified        DateTime?
+  role                 String    @default("USER") // ADMIN, BUILDER, AGENT, USER
+  status               String    @default("ACTIVE") // ACTIVE, REVOKED
+  revokedAt            DateTime?
+  revokedById          String?
+  revokedReason        String?
+  currency             String    @default("USD") // USD, AUD, EUR, GBP
+  credits              Int       @default(40)
+  subscriptionStatus   String?   // active, canceled, null
+  subscriptionInterval String?   // month, year, null
+  subscriptionRenewsAt DateTime?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+
+  sessions             Session[]
+  createdInvitations   InvitationCode[] @relation("CreatedInvitations")
+  redeemedInvitations  InvitationCode[] @relation("RedeemedInvitations")
+  auditLogs            AuditLog[]
+  drafts               Draft[]
+  homeBuilds           HomeBuild[]
+  supportThreads       SupportThread[]
+  realEstateListings   RealEstateListing[]
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  createdAt    DateTime @default(now())
+
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model InvitationCode {
+  id               String    @id @default(uuid())
+  code             String    @unique
+  role             String    @default("USER") // ADMIN, BUILDER, AGENT, USER
+  boundEmail       String?
+  maxUses          Int       @default(1)
+  usedCount        Int       @default(0)
+  status           String    @default("ACTIVE") // ACTIVE, USED, REVOKED, EXPIRED
+  expiresAt        DateTime
+  createdById      String?
+  redeemedByUserId String?
+  redeemedAt       DateTime?
+  revokedAt        DateTime?
+  revokedById      String?
+  note             String?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  createdBy        User?     @relation("CreatedInvitations", fields: [createdById], references: [id], onDelete: SetNull)
+  redeemedByUser   User?     @relation("RedeemedInvitations", fields: [redeemedByUserId], references: [id], onDelete: SetNull)
+}
+
+model VerificationCode {
+  id         String    @id @default(uuid())
+  email      String
+  code       String
+  inviteCode String?
+  expiresAt  DateTime
+  usedAt     DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([email, code])
+}
+
+model AuditLog {
+  id          String   @id @default(uuid())
+  actorUserId String?
+  actorEmail  String?
+  action      String
+  targetType  String
+  targetId    String?
+  ipAddress   String?
+  userAgent   String?
+  metadata    String   @default("{}")
+  createdAt   DateTime @default(now())
+
+  actor       User?    @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  @@index([action])
+  @@index([actorUserId])
+  @@index([createdAt])
+}
+
+model Draft {
+  id           String      @id @default(uuid())
+  userId       String?
+  state        String      @default("open") // open, paying, built
+  houseWidthM  Float?
+  houseLengthM Float?
+  unit         String      @default("ft") // m, ft
+  consented    Boolean     @default(false)
+  paid         Boolean     @default(false)
+  buildId      String?
+  expiresAt    DateTime
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  user         User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+  files        DraftFile[]
+}
+
+model DraftFile {
+  id         String   @id @default(uuid())
+  draftId    String
+  name       String
+  mimeType   String
+  bytes      Int
+  dataBase64 String
+  pageIndex  Int      @default(0)
+  createdAt  DateTime @default(now())
+
+  draft      Draft    @relation(fields: [draftId], references: [id], onDelete: Cascade)
+}
+
+model HomeBuild {
+  id             String        @id @default(uuid())
+  userId         String?
+  draftId        String?
+  title          String
+  builder        String?
+  status         String        @default("ready") // ready, building, failed
+  storeys        Int           @default(2)
+  unit           String        @default("ft") // m, ft
+  roofType       String        @default("gable") // gable, hip, flat, skillion
+  ceilingGroundM Float         @default(2.54)
+  ceilingUpperM  Float         @default(2.69)
+  planJson       String
+  finishesJson   String        @default("{}")
+  electricalJson String        @default("[]")
+  sitePlanJson   String        @default("{}")
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  user           User?         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  versions       HomeVersion[]
+  pieces         PlacedPiece[]
+  frameRenders   FrameRender[]
+  shareLinks     ShareLink[]
+}
+
+model HomeVersion {
+  id            String    @id @default(uuid())
+  homeBuildId   String
+  versionNumber Int
+  label         String
+  planJson      String
+  createdAt     DateTime  @default(now())
+
+  homeBuild     HomeBuild @relation(fields: [homeBuildId], references: [id], onDelete: Cascade)
+}
+
+model PlacedPiece {
+  id          String    @id @default(uuid())
+  homeBuildId String
+  catalogId   String
+  name        String
+  category    String
+  floorIndex  Int       @default(0)
+  roomKey     String?
+  x           Float     @default(0)
+  y           Float     @default(0)
+  z           Float     @default(0)
+  rotation    Float     @default(0)
+  width       Float     @default(1.8)
+  depth       Float     @default(0.9)
+  height      Float     @default(0.85)
+  colour      String    @default("#8C857B")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  homeBuild   HomeBuild @relation(fields: [homeBuildId], references: [id], onDelete: Cascade)
+}
+
+model FrameRender {
+  id          String    @id @default(uuid())
+  homeBuildId String
+  roomName    String
+  style       String    @default("Daylight architectural")
+  prompt      String?
+  cameraJson  String    @default("{}")
+  imageUrl    String
+  createdAt   DateTime  @default(now())
+
+  homeBuild   HomeBuild @relation(fields: [homeBuildId], references: [id], onDelete: Cascade)
+}
+
+model ShareLink {
+  id          String    @id @default(uuid())
+  homeBuildId String
+  token       String    @unique
+  active      Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  revokedAt   DateTime?
+
+  homeBuild   HomeBuild @relation(fields: [homeBuildId], references: [id], onDelete: Cascade)
+}
+
+model SupportThread {
+  id        String           @id @default(uuid())
+  userId    String?
+  email     String
+  name      String?
+  subject   String
+  status    String           @default("open")
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  user      User?            @relation(fields: [userId], references: [id], onDelete: SetNull)
+  messages  SupportMessage[]
+}
+
+model SupportMessage {
+  id        String        @id @default(uuid())
+  threadId  String
+  sender    String        @default("user") // user, support
+  body      String
+  createdAt DateTime      @default(now())
+
+  thread    SupportThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+}
+
+model RealEstateListing {
+  id          String   @id @default(uuid())
+  userId      String?
+  agencyName  String
+  agentName   String
+  email       String
+  address     String
+  suburb      String?
+  state       String?
+  postcode    String?
+  homeBuildId String?
+  status      String   @default("ready")
+  createdAt   DateTime @default(now())
+
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
